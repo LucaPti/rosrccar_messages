@@ -54,6 +54,9 @@ add_message_files(
   FILES
   RCControl.msg
   RawOpticalSensorData.msg
+  VehicleConfig.msg
+  VehicleHealth.msg
+  VehicleState.msg
 )
 
 ## Generate services in the 'srv' folder

@@ -1,0 +1,9 @@
+float32 battery_voltage
+bool pass_on_rc
+float32 speedlimit
+bool limit_speed
+float32 rpmlimit
+bool limit_rpm
+bool rc_available
+bool optical_available
+bool imu_available
