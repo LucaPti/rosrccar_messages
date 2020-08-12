@@ -57,6 +57,7 @@ add_message_files(
   VehicleConfig.msg
   VehicleHealth.msg
   VehicleState.msg
+  VehicleMeasurement.msg
 )
 
 ## Generate services in the 'srv' folder
