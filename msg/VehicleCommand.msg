@@ -1,0 +1,4 @@
+uint8 operationmode_lon
+uint8 operationmode_lat
+int16 target_lon
+int16 target_lat

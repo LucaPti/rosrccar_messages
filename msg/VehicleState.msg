@@ -1,18 +1,14 @@
-float32 pos_x
-float32 pos_y
-float32 yaw
+int16 yaw_rad_e3        # yaw                       in radians         times 1000 
+int16 slipangle_rad_e3 # slip angle                 in radians         times 1000
 
-float32 velocity
-float32 yawrate
+int16 wheelspeed_mps_e3 # wheelspeed                in meters/second   times 1000
+int16 yawrate_radps_e3  # yawrate                   in radians/second  times 1000 
 
-float32 acc_x
-float32 acc_y
+int16 acc_x_mps2_e3     # longitudinal acceleration in meters/second^2 times 1000
+int16 acc_y_mps2_e3     # lateral acceleration      in meters/second^2 times 1000
 
-float32 slipangle
-float32 slip
+int16 acc_command_e3    # accelerator command       between -1 and 1   times 1000
+int16 steer_command_e3  # steering command          between -1 and 1   times 1000
 
-float32 enginespeed
-
-float32 acc_command
-float32 steer_command
-bool valid
+uint8 operationmode_lon # mode for longitudinal commands
+uint8 operationmode_lat # mode for lateral comands
