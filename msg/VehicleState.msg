@@ -10,5 +10,5 @@ int16 acc_y_mps2_e3     # lateral acceleration      in meters/second^2 times 100
 int16 acc_command_e3    # accelerator command       between -1 and 1   times 1000
 int16 steer_command_e3  # steering command          between -1 and 1   times 1000
 
-uint8 operationmode_lon # mode for longitudinal commands
-uint8 operationmode_lat # mode for lateral comands
+uint8 operationmode_lon # 'off', 'manual', 'manual_limitedspeed', 'manual_limitedslip', 'automated'
+uint8 operationmode_lat # 'off', 'manual', 'manual_limitedspeed', 'manual_limitedslip', 'automated'
